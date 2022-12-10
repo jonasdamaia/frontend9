@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+
+body{
+    background-color: hsl(210, 46%, 95%);
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.esquerda{
+    display: flex;
+    flex-direction: column;
+}
+
+.direita{
+    display: flex;
+    position: right;
+}
+
+.superior{
+    display: flex;
+    flex-direction: row;
+}
+
+.inferior{
+    display: flex;
+    flex-direction: row;
+}
+
+.daniel{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    width: 500px;
+    height: 190px;
+    margin: 15px -10px 15px 40px;
+    background: hsl(263, 55%, 52%) url(./media/bg-pattern-quotation.svg) no-repeat;
+    background-position: 80% 0%;
+    border-radius: 10px;
+    border: 20px solid hsl(263, 55%, 52%);
+}
+
+.daniel-foto{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.jonathan{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    width: 200px;
+    height: 190px;
+    margin: 15px -10px 15px 40px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    border: 20px solid hsl(217, 19%, 35%);
+}
+
+.jonathan-foto{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.jeanette{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    width: 200px;
+    margin: 1px -10px 15px 40px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border: 20px solid hsl(0, 0%, 100%);
+}
+
+.jeanette-foto{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.patrick{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    width: 500px;
+    margin: 5px -10px 15px 40px;
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    border: 20px solid hsl(219, 29%, 14%);
+}
+
+.patrick-foto{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.kira{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 11px;
+    width: 180px;
+    margin: 12px 29px 12px 29px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border: 20px solid hsl(0, 0%, 100%);
+}
+
+.kira-foto{
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+.titulo-homem{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-size: 15px;
+}
+
+.titulo-mulher{
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    color: hsl(217, 19%, 35%);
+    font-size: 15px;
+}
+
+.texto-homem{
+    color: hsl(0, 0%, 81%);
+}
+
+.texto-mulher{
+    color: hsl(217, 19%, 35%);
+}
+
+.id-foto{
+    display: flex;
+    flex-direction: row;
+}
+
+.id-nome-homens{
+    color: hsl(0, 0%, 100%);
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.id-formacao-homens{
+    color: hsl(0, 0%, 81%);
+    margin-left: 8px;
+    line-height: 0px;
+}
+
+.id-nome-mulheres{
+    color: hsl(219, 29%, 14%);
+    margin-left: 8px;
+    margin-top: 1px;
+}
+
+.id-formacao-mulheres{
+    color: hsl(217, 19%, 35%);
+    margin-left: 8px;
+    line-height: 0px;
+}
+
+    @media screen and (max-device-width: 375px) {
+        body{
+            background-color: hsl(210, 46%, 95%);
+        }
+        
+        .flex-container{
+            display: flex;
+            flex-direction: column;
+            margin-left: -30px;
+            margin-right: -30px;
+            margin-top: 20px;
+        }
+        
+        .esquerda{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .direita{
+            display: flex;
+            position: right;
+        }
+        
+        .superior{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .inferior{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .daniel{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 11px;
+            width: 300px;
+            height: 230px;
+            background: hsl(263, 55%, 52%) url(./media/bg-pattern-quotation.svg) no-repeat;
+            background-position: 80% 0%;
+            border-radius: 10px;
+            border: 20px solid hsl(263, 55%, 52%);
+        }
+        
+        .daniel-foto{
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .jonathan{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 11px;
+            width: 300px;
+            height: 140px;
+            background-color: hsl(217, 19%, 35%);
+            border-radius: 10px;
+            border: 20px solid hsl(217, 19%, 35%);
+        }
+        
+        .jonathan-foto{
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .jeanette{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 11px;
+            width: 300px;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 10px;
+            border: 20px solid hsl(0, 0%, 100%);
+        }
+        
+        .jeanette-foto{
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .patrick{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 11px;
+            width: 300px;
+            background-color: hsl(219, 29%, 14%);
+            border-radius: 10px;
+            border: 20px solid hsl(219, 29%, 14%);
+        }
+        
+        .patrick-foto{
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .kira{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            font-size: 11px;
+            width: 300px;
+            background-color: hsl(0, 0%, 100%);
+            border-radius: 10px;
+            border: 20px solid hsl(0, 0%, 100%);
+        }
+        
+        .kira-foto{
+            border-radius: 50px;
+            width: 30px;
+            height: 30px;
+        }
+        
+        .titulo-homem{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            color:hsl(0, 0%, 100%);
+            font-size: 15px;
+        }
+        
+        .titulo-mulher{
+            font-family: 'Barlow Semi Condensed', sans-serif;
+            color: hsl(217, 19%, 35%);
+            font-size: 15px;
+        }
+        
+        .texto-homem{
+            color: hsl(0, 0%, 81%);
+        }
+        
+        .texto-mulher{
+            color: hsl(217, 19%, 35%);
+        }
+        
+        .id-foto{
+            display: flex;
+            flex-direction: row;
+        }
+        
+        .id-nome-homens{
+            color: hsl(0, 0%, 100%);
+            margin-left: 8px;
+            margin-top: 1px;
+        }
+        
+        .id-formacao-homens{
+            color: hsl(0, 0%, 81%);
+            margin-left: 8px;
+            line-height: 0px;
+        }
+        
+        .id-nome-mulheres{
+            color: hsl(219, 29%, 14%);
+            margin-left: 8px;
+            margin-top: 1px;
+        }
+        
+        .id-formacao-mulheres{
+            color: hsl(217, 19%, 35%);
+            margin-left: 8px;
+            line-height: 0px;
+        }
+    }
